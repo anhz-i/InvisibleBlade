@@ -175,12 +175,16 @@ aside .block .button b {
         flex-direction: column;        
     }
     aside .block {
-        width: 80vw;
-        margin: 5% 10%;
-        font-size: large;
+        width: 80vw !important;
+        margin: 5% 10% !important;
+        font-size: small !important;
     }   
+    aside .block h3 {
+        width: 50vw;
+        font-size: 18px;
+    }
     aside .block .button {
-        width: 30vw;
+        width: 40vw;
         margin: 10px 0 25px 50%;
     }
     .main{
@@ -196,6 +200,9 @@ aside .block .button b {
     }
     article .mainarticle,
     aside .block p {
-        font-size: 20px;
+        font-size: 15px;
+    }
+    aside .block img {
+        width: 50vw;
     }
 }
