@@ -227,9 +227,18 @@
 
 @media (max-width: 649px) {
   .slideshow .title {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
 
+  .slideshow .slide .caption {
+    padding: 0 70px;
+  }
+  .slideshow .arrows .next {
+    right: 5px;
+  }
+  .slideshow .arrows .prev {
+    left: 5px;
+  }
   .slideshow .btn {
     padding: 10px 15px;
   }
