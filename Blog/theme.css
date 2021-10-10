@@ -239,3 +239,9 @@ footer .copyright p {
   text-align: center;
   padding-top: 15px;
 }
+@media (max-width: 400px) {
+  footer .lettalk h1 {
+    font-size: 35px !important;
+    width: 210px !important;
+  }
+}
