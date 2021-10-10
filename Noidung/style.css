@@ -470,3 +470,20 @@ main > div:nth-child(2n) {
 .revealedBox-in > span:nth-child(5) {
   animation-delay: 0.25s;
 }
+@media (max-width: 400px) {
+  main h1, main h2 {
+    font-size: 25px;
+    padding: 80px;
+  }
+  main h1::before {
+    width: 70px;
+  }
+  main > div > .contentBox > p {
+    font-size: 14px;
+    padding: 30px;
+  }
+  footer .lettalk h1 {
+    font-size: 35px !important;
+    width: 210px !important;
+  }
+}
