@@ -346,7 +346,6 @@ section[data-slide-index="0"] .slider-content h2 {
 @media (max-width: 768px) {
   .slider-content {
     margin: 0;
-    padding-top: 3em;
   }
   .slider-content h1 {
     font-size: 4em;
@@ -807,5 +806,28 @@ footer .copyright p {
 @media (max-width: 740px) {
   #About .noidungabout  {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  main p {
+    font-size: 14px !important;
+  }
+  .slider-content h2 {
+    font-size: 20px;
+  }
+  .slider-content p {
+    font-size: 14px;
+  }
+  main section .mainitem,
+  .navhome .home {
+    font-size: 30px !important;
+  }
+  main a {
+    font-size: 15px !important;
+  }
+  footer .lettalk h1 {
+    font-size: 35px !important;
+    width: 210px !important;
   }
 }
