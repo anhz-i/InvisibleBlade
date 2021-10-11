@@ -491,6 +491,7 @@ main section .viewall {
   padding: 10px 20px;
   font-size: 18px;
   font-weight: 600;
+  margin-right: 3%;
 }
 main section .viewall::before {
   content: "";
@@ -537,13 +538,17 @@ main #Blog .imagineblog {
   display: inline-flex;
   margin-left: 5%;
   width: 40vw;
-  height: 600px;
-  background-image: url('./Assets/img/mainblog\ \(2\).jfif');
+  height: 500px;
   background-position: center;
   background-size: cover;
 }
+main #Blog .Mainblog1 .imagineblog {
+  background-image: url('./Assets/img/mainblog\ \(2\).jfif');
+  margin-right: 3%;
+}
 main #Blog .Mainblog2 .imagineblog {
-  background-image: url('./Assets/img/mainblog\ \(1\).jfif');
+  height: 500px;
+  background-color: #fff;
 }
 @media (max-width: 959px) {
   main #Blog .imagineblog {
@@ -565,7 +570,7 @@ main #Blog .Mainblog2 .imagineblog {
   }
 }
 @media (min-width: 639px) {
-  main #Blog .Mainblog2 {
+  main #Blog .Mainblog1 {
     flex-direction: row-reverse;
   }
 }
